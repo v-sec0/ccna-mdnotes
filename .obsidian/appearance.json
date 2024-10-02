@@ -1,0 +1,10 @@
+{
+  "interfaceFontFamily": "Bahnschrift",
+  "textFontFamily": "Reddit Mono",
+  "monospaceFontFamily": "Reddit Mono",
+  "cssTheme": "Border",
+  "baseFontSize": 15,
+  "baseFontSizeAction": true,
+  "nativeMenus": true,
+  "accentColor": "#313e96"
+}
