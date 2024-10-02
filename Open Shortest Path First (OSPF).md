@@ -41,7 +41,11 @@ Multiple autonomous systems can be connected together. The router that connects 
 
 **Adjacency:** A relationship between two OSPF routers that permits the exchange of updates. OSPF is picky about sharing updates -- only shares information with neighbors with established adjacency. In multi-access connections, routers form adjacencies with the DR and BDR. 
 
-**Designated Router (DR):** In a multi-access network, the DR is elected to reduced formed adjacencies and to publicized received routing information to and from connected routers within the same broadcast domain
+**Designated Router (DR):** In a multi-access network, the DR is elected to reduce formed adjacencies and to publicized received routing information to and from connected routers within the same broadcast domain or link. Election are won based on priority level (default is 1). If there is a tie, the router with the highest router ID wins.
+
+**Backup Designated Router (BDR):** The BDR acts as a hot standby for the DR. It receives everything the DR receives but does not send LSAs unless the DR is down. 
+
+**Hello protocol:** Packets that enable dynamic neighbor discovery and maintain neighbor relationships. Addressed to multicast
 
 
 
