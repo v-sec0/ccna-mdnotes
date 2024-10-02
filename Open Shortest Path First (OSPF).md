@@ -49,7 +49,9 @@ Multiple autonomous systems can be connected together. The router that connects 
 
 **Neighborship database:** A database containing information about all OSPF routers for which Hello packets have been seen. Router ID, and state are maintained in this database. 
 
-**Topological database:** A database that contains information about 
+**Topological database:** A database that contains information about all Link State Advertisements received and places the information into Dijkstra's algorithm to compute the shortest path to every network.
+
+
 
 
 
