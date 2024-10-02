@@ -25,5 +25,10 @@ A hierarchal design allows larger internetworks to be segmented into smaller int
 **Area Border Routers.**
 - *Autonomous system* refers to a collection of networks that share common administration and routing strategy.
 
+Multiple autonomous systems can be connected together. The router that connects these ASs together is called an **Autonomous System Boundary Router (ASBR).**
+
+
+
+
 
 
