@@ -45,7 +45,11 @@ Multiple autonomous systems can be connected together. The router that connects 
 
 **Backup Designated Router (BDR):** The BDR acts as a hot standby for the DR. It receives everything the DR receives but does not send LSAs unless the DR is down. 
 
-**Hello protocol:** Packets that enable dynamic neighbor discovery and maintain neighbor relationships. Addressed to multicast
+**Hello protocol:** Packets that enable dynamic neighbor discovery and maintain neighbor relationships. Addressed to multicast address **224.0.0.5**.
+
+**Neighborship database:** A database containing information about all OSPF routers for which Hello packets have been seen. Router ID, and state are maintained in this database. 
+
+**Topological database:** A database that contains information about 
 
 
 
