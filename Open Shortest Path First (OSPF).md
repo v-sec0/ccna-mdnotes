@@ -13,6 +13,7 @@
 | Hierarchal network requirment | **Yes (Areas)**         | No (Flat only)         |
 | Updates                       | **Event triggered**     | Periodic               |
 | Route computation             | **Dijkstra**            | Bellman-Ford           |
+
 A hierarchal design allows larger internetworks to be segmented into smaller internetworks. 
 
 **This brings the following advantages:**
