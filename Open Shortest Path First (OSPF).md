@@ -27,6 +27,14 @@ A hierarchal design allows larger internetworks to be segmented into smaller int
 
 Multiple autonomous systems can be connected together. The router that connects these ASs together is called an **Autonomous System Boundary Router (ASBR).**
 
+## OSPF Terminology
+
+**Link**: A network or router interface assigned to any given network. When an interface is added to the OSPF process it's considered to be a link. 
+
+**Router ID:** The name of a router in the OSPF process. This is usually derived from the highest loopback IP on the router, but if that's not available, the highest interface IP address is used. 
+
+**Neighbor**
+
 
 
 
