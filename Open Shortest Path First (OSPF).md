@@ -76,10 +76,14 @@ The Hello protocol is used to discover neighbors and establish adjacencies, and 
 
 #### LSA Flooding
 
-After the neighborships and adjacencies are formed, the OSPF routers send Link State Update (LSU) packets containing LSAs. An LSU packet contains a number of LSAs which provide link-state information about all the OSPF routers within the area. Network topology is created using the information within LSU packets. 
+After the neighborships and adjacencies are formed, the OSPF routers send Link State Update (LSU) packets containing LSAs. An LSU packet contains a number of LSAs which provide link-state information about all the OSPF routers within the area. Network topology is created using the information within LSU packets. After the initial flooding, LSAs are only sent out when changes occur in the network.
 
-| Network Type | Multicast Address | Description |
-| ------------ | ----------------- | ----------- |
+| Network Type               | Multicast Address                  | Description    |
+| -------------------------- | ---------------------------------- | -------------- |
+| **Point-to-point (P2P)**       | 224.0.0.5                          | AllOSPFRouters |
+| **Broadcast**                  | 224.0.0.6                          | AllDRRouters   |
+| **Point-to-multipoint (P2MP)** | Uses *adjacent routers* unicast IP | N/A            |
+
 
 
 
