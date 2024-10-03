@@ -90,7 +90,7 @@ Database Description (DbD) packet contains information about what information th
 
 #### SPF Tree Calculation
 
-
+An OSPF router calculates the best route using the Shortest Path First algorithm which arranges the routers in a tree like structure with the routers are the roots and the different networks as branches
 ###### OSPF Metrics
 
 
