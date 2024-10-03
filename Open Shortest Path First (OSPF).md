@@ -84,6 +84,14 @@ After the neighborships and adjacencies are formed, the OSPF routers send Link S
 | **Broadcast**                  | 224.0.0.6                          | AllDRRouters   |
 | **Point-to-multipoint (P2MP)** | Uses *adjacent routers* unicast IP | N/A            |
 
+After the LSUs are sent, the routers must send a Link State Acknowledgement (LSAck) to signify they got the updates.
+
+Database Description (DbD) packet contains information about what information the OSPF router knows. 
+
+#### SPF Tree Calculation
+
+
+###### OSPF Metrics
 
 
 
