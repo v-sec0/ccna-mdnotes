@@ -57,7 +57,9 @@ Multiple autonomous systems can be connected together. The router that connects 
 
 **Broadcast (multi-access):** A broadcast/multi-access network allows multiple devices to connect to or access the same network, enabling a broadcast ability so a single packet can be delivered to multiple endpoints. 
 
-**Nonbroadcast multi-access:** A nonbroadcast multi-access networks like Frame Relay, X.25, and Asynchronous Transfer Mode (ATM) allows for multi-access without the broadcast ability.
+**Nonbroadcast multi-access (NBMA):** A nonbroadcast multi-access networks like Frame Relay, X.25, and Asynchronous Transfer Mode (ATM) allows for multi-access without the broadcast ability. Requires special configuration to work with OSPF. 
+
+**Point-to-point:** A type of network topology made up of a direct connection between two routers that provide a single communication path.
 
 
 
