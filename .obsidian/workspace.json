@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Open Shortest Path First (OSPF) Overview.md",
+                "file": "OSPF Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64f9f8162ae4840a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSPF Configuration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Open Shortest Path First (OSPF) Overview.md",
+                "file": "OSPF Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Open Shortest Path First (OSPF) Overview.md",
+                "file": "OSPF Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Open Shortest Path First (OSPF) Overview.md"
+                "file": "OSPF Configuration.md"
               }
             }
           },
@@ -155,10 +168,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1d4943964a90be86",
+  "active": "64f9f8162ae4840a",
   "lastOpenFiles": [
+    "OSPF Overview.md",
+    "OSPF Configuration.md",
     "Open Shortest Path First (OSPF).md",
-    "Open Shortest Path First (OSPF) Overview.md",
     "Untitled.canvas"
   ]
 }
