@@ -90,9 +90,10 @@ Database Description (DbD) packet contains information about what information th
 
 #### SPF Tree Calculation
 
-An OSPF router calculates the best route using the Shortest Path First algorithm which arranges the routers in a tree like structure with the routers are the roots and the different networks as branches
+An OSPF router calculates the best route using the Shortest Path First algorithm which arranges the routers in a tree like structure with the routers are the roots and the different networks are along branches and leaves.
 ###### OSPF Metrics
 
+The metric OSPF uses is referred to as *cost*. The cost of an entire path is the sum of the cost of the outgoing interfaces along the path. For Cisco, cost is defined as 10^
 
 
 
