@@ -55,6 +55,10 @@ Multiple autonomous systems can be connected together. The router that connects 
 
 **OSPF Area:** A OSPF area is a grouping of contiguous networks and routers. Routers within an area share an Area ID on the interface configured for that area. A router can be apart of multiple areas so each interface will have the Area ID of the area it's configured to connect to.
 
+**Broadcast (multi-access):** A broadcast/multi-access network allows multiple devices to connect to or access the same network, enabling a broadcast ability so a single packet can be delivered to multiple endpoints. 
+
+**Nonbroadcast multi-access:** A nonbroadcast multi-access networks like Frame Relay, X.25, and Asynchronous Transfer Mode (ATM) allows for multi-access without the broadcast ability.
+
 
 
 
