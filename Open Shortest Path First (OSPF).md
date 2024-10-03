@@ -51,6 +51,10 @@ Multiple autonomous systems can be connected together. The router that connects 
 
 **Topological database:** A database that contains information about all Link State Advertisements received and places the information into Dijkstra's algorithm to compute the shortest path to every network.
 
+**Link State Advertisement:** A OSPF data packet containing link-state and routing information that shared among OSPF routers. 
+
+**OSPF Area:** A OSPF area is a grouping of contiguous networks and routers. Routers within an area share an Area ID on the interface configured for that area. A router can be apart of multiple areas so each interface will have the Area ID of the area it's configured to connect to.
+
 
 
 
