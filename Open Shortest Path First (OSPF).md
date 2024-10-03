@@ -59,7 +59,11 @@ Multiple autonomous systems can be connected together. The router that connects 
 
 **Nonbroadcast multi-access (NBMA):** A nonbroadcast multi-access networks like Frame Relay, X.25, and Asynchronous Transfer Mode (ATM) allows for multi-access without the broadcast ability. Requires special configuration to work with OSPF. 
 
-**Point-to-point:** A type of network topology made up of a direct connection between two routers that provide a single communication path.
+**Point-to-point:** A type of network topology made up of a direct connection between two routers that provide a single communication path. Can either be physical or logical
+
+**Point-to-multipoint:** A type of network topology made of a single interface on a router connected to multiple destination routers. This can be further classified according to whether or not it supports broadcast traffic. This is important as it determines the kind of OSPF configuration that can be deployed.
+
+## OSPF Operation
 
 
 
