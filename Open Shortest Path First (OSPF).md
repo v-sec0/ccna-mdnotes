@@ -72,6 +72,11 @@ This can be divided into **three categories:**
 
 #### Neighbor and Adjacency Initialization
 
+The Hello protocol is used to discover neighbors and establish adjacencies, and maintain relationships with other OSPF routers. In environments that support 
+#### LSA Flooding
+
+After the neighborships and adjacencies are formed, the OSPF routers send Link State Update (LSU) packets containing LSAs. An LSU packet contains a number of LSAs which provide information about the connected routes and learned routes.  
+
 
 
 
