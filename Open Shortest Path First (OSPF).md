@@ -72,11 +72,14 @@ This can be divided into **three categories:**
 
 #### Neighbor and Adjacency Initialization
 
-The Hello protocol is used to discover neighbors and establish adjacencies, and maintain relationships with other OSPF routers. In environments that support 
+The Hello protocol is used to discover neighbors and establish adjacencies, and maintain relationships with other OSPF routers. In environments that support multicast traffic, Hello packets are sent out periodically. The address for this multicast traffic is **224.0.0.5**. Broadcast and P2P networks sent Hellos every 10s, for P2MP and non-broadcast networks Hellos are sent every 30s.
+
 #### LSA Flooding
 
-After the neighborships and adjacencies are formed, the OSPF routers send Link State Update (LSU) packets containing LSAs. An LSU packet contains a number of LSAs which provide information about the connected routes and learned routes.  
+After the neighborships and adjacencies are formed, the OSPF routers send Link State Update (LSU) packets containing LSAs. An LSU packet contains a number of LSAs which provide link-state information about all the OSPF routers within the area. Network topology is created using the information within LSU packets. 
 
+| Network Type | Multicast Address | Description |
+| ------------ | ----------------- | ----------- |
 
 
 
