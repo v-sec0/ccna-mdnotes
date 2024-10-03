@@ -93,9 +93,15 @@ sequenceDiagram
 OSPF Router 1->>+OSPF Router 2: Hello (224.0.0.5)?
 OSPF Router 2->>-OSPF Router 1: Hello (224.0.0.5)?
 OSPF Router 1->>+OSPF Router 2: Here's what I know. (DBD)
-OSPF Router 2->>-OSPF Router 1: Nice, here's what I know. (DBD)
+OSPF Router 2->>-OSPF Router 1: Here's what I know. (DBD)
 ```
 
+```mermaid
+sequenceDiagram
+OSPF Router 1->>+OSPF Router 2: Here's what I need (LSR)
+OSPF Router 2->>-OSPF Router 1: Here's what I have on it (LSU)
+OSPF Router 1->>+OSPF Router 2: Thanks, got it! (LSAck)
+```
 #### SPF Tree Calculation
 
 An OSPF router calculates the best route using the Shortest Path First algorithm which arranges the routers in a tree like structure with the routers are the roots and the different networks are along branches and leaves.
