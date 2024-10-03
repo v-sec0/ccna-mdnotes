@@ -65,6 +65,13 @@ Multiple autonomous systems can be connected together. The router that connects 
 
 ## OSPF Operation
 
+This can be divided into **three categories:**
+1. Neighbor and adjacency initialization
+2. LSA flooding
+3. SPF calculation
+
+#### Neighbor and Adjacency Initialization
+
 
 
 
