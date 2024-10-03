@@ -88,12 +88,19 @@ After the LSUs are sent, the routers must send a Link State Acknowledgement (LSA
 
 Database Description (DbD) packet contains information about what information the OSPF router knows. 
 
+```mermaid
+sequenceDiagram
+OSPF Router 1->>+OSPF Router 2: Hello?
+OSPF Router 2->>-OSPF Router 1: Hello?
+OSPF Router 1->>+OSPF Router 2: Here's what I know (DBD)
+```
+
 #### SPF Tree Calculation
 
 An OSPF router calculates the best route using the Shortest Path First algorithm which arranges the routers in a tree like structure with the routers are the roots and the different networks are along branches and leaves.
 ###### OSPF Metrics
 
-The metric OSPF uses is referred to as *cost*. The cost of an entire path is the sum of the cost of the outgoing interfaces along the path. For Cisco, cost is defined as 10^
+The metric OSPF uses is referred to as *cost*. The cost of an entire path is the sum of the cost of the outgoing interfaces along the path. For Cisco, cost is defined as 10^8/bandwidth
 
 
 
