@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,8 +155,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1cf7682f830a7cba",
+  "active": "1d4943964a90be86",
   "lastOpenFiles": [
+    "Open Shortest Path First (OSPF).md",
     "Open Shortest Path First (OSPF) Overview.md",
     "Untitled.canvas"
   ]
