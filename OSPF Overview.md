@@ -71,11 +71,9 @@ This can be divided into **three categories:**
 3. SPF calculation
 
 #### Neighbor and Adjacency Initialization
-
 The Hello protocol is used to discover neighbors and establish adjacencies, and maintain relationships with other OSPF routers. In environments that support multicast traffic, Hello packets are sent out periodically. The address for this multicast traffic is **224.0.0.5**. Broadcast and P2P networks sent Hellos every 10s, for P2MP and non-broadcast networks Hellos are sent every 30s.
 
 #### LSA Flooding
-
 After the neighborships and adjacencies are formed, the OSPF routers send Link State Update (LSU) packets containing LSAs. An LSU packet contains a number of LSAs which provide link-state information about all the OSPF routers within the area. Network topology is created using the information within LSU packets. After the initial flooding, LSAs are only sent out when changes occur in the network.
 
 | Network Type               | Multicast Address                  | Description    |
@@ -103,10 +101,8 @@ OSPF Router 2->>-OSPF Router 1: Here's what I have on it (LSU)
 OSPF Router 1->>+OSPF Router 2: Thanks, got it! (LSAck)
 ```
 #### SPF Tree Calculation
-
 An OSPF router calculates the best route using the Shortest Path First algorithm which arranges the routers in a tree like structure with the routers are the roots and the different networks are along branches and leaves.
-###### OSPF Metrics
-
+##### OSPF Metrics
 The metric OSPF uses is referred to as *cost*. The cost of an entire path is the sum of the cost of the outgoing interfaces along the path. For Cisco, cost is defined as $10^{8}$/bandwidth.
 
 
