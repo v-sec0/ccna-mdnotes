@@ -2,9 +2,9 @@
   "interfaceFontFamily": "Bahnschrift",
   "textFontFamily": "Reddit Mono",
   "monospaceFontFamily": "Reddit Mono",
-  "cssTheme": "Border",
+  "cssTheme": "",
   "baseFontSize": 15,
   "baseFontSizeAction": true,
   "nativeMenus": true,
-  "accentColor": "#3a67a1"
+  "accentColor": "#3b516d"
 }
