@@ -64,7 +64,6 @@ Multiple autonomous systems can be connected together. The router that connects 
 **Point-to-multipoint:** A type of network topology made of a single interface on a router connected to multiple destination routers. This can be further classified according to whether or not it supports broadcast traffic. This is important as it determines the kind of OSPF configuration that can be deployed.
 
 ## OSPF Operation
-
 This can be divided into **three categories:**
 1. Neighbor and adjacency initialization
 2. LSA flooding
