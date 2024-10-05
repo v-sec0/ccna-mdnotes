@@ -14,6 +14,8 @@ R1#show ip ospf
 ```
 
 **Shows number of routes in the AS and the neighboring router's RID**
+	Does not display all links in AS li
 ```
 R1#sh ip ospf database
 ```
+
