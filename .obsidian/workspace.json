@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSPF/OSPF Overview.md",
+                "file": "L2/Layer 2 Switching Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSPF/OSPF Overview.md",
+                "file": "L2/Layer 2 Switching Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSPF/OSPF Overview.md",
+                "file": "L2/Layer 2 Switching Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSPF/OSPF Overview.md"
+                "file": "L2/Layer 2 Switching Overview.md"
               }
             }
           },
@@ -158,10 +158,11 @@
   },
   "active": "1d4943964a90be86",
   "lastOpenFiles": [
-    "OSPF/OSPF Configuration.md",
-    "Layer 2 Switching.md",
-    "OSPF",
+    "L2",
     "OSPF/OSPF Overview.md",
+    "OSPF/OSPF Configuration.md",
+    "L2/Layer 2 Switching Overview.md",
+    "OSPF",
     "Open Shortest Path First (OSPF).md",
     "Untitled.canvas"
   ]
