@@ -23,3 +23,12 @@ R1#sh ip ospf database
 R1#sh ip ospf int <interface>
 ```
 
+**Shows information about neighbors and formed adjacencies:**
+```
+R1#sh ip ospf neighbor
+```
+
+**Shows information about routing protocols being used on a router:**
+```
+R1#sh ip protocols
+```
