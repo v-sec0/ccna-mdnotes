@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSPF Configuration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64f9f8162ae4840a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSPF Configuration.md",
+                "file": "OSPF Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSPF Configuration.md",
+                "file": "OSPF Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSPF Configuration.md",
+                "file": "OSPF Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSPF Configuration.md"
+                "file": "OSPF Overview.md"
               }
             }
           },
@@ -170,8 +158,8 @@
   },
   "active": "1d4943964a90be86",
   "lastOpenFiles": [
-    "OSPF Overview.md",
     "OSPF Configuration.md",
+    "OSPF Overview.md",
     "Open Shortest Path First (OSPF).md",
     "Untitled.canvas"
   ]
