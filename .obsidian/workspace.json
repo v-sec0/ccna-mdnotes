@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSPF Overview.md",
+                "file": "OSPF Configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSPF Overview.md",
+                "file": "OSPF Configuration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSPF Overview.md",
+                "file": "OSPF Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSPF Overview.md",
+                "file": "OSPF Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSPF Overview.md"
+                "file": "OSPF Configuration.md"
               }
             }
           },
@@ -155,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,10 +168,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "64f9f8162ae4840a",
+  "active": "1d4943964a90be86",
   "lastOpenFiles": [
-    "OSPF Configuration.md",
     "OSPF Overview.md",
+    "OSPF Configuration.md",
     "Open Shortest Path First (OSPF).md",
     "Untitled.canvas"
   ]
