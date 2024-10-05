@@ -18,3 +18,8 @@ R1#show ip ospf
 R1#sh ip ospf database
 ```
 
+**Shows information about all OSPF interfaces on a router or a specific one:**
+```
+R1#sh ip ospf int <interface>
+```
+
