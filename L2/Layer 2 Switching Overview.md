@@ -17,6 +17,6 @@ Layer 2 devices **are faster** than Layer 3 devices since they don't concern the
 
 ### Constructing the filter table
 
-A switch builds it's MAC filter table by examining the source hardware address of every frame that is sent through it. 
+A switch builds it's MAC filter table by **examining the source hardware address of every frame that is sent through it.** 
 
-If a frame is sent to a switch and it's address is not inside the 
+If a frame is sent to a switch and it's address is not inside the filter table, the switch adds the address and checks to see if the destination address is in it's table. If the address is present, the switch forwards the packet to the correct interface; if it's not present the switch floods the packet to all interfaces **except the one where it received the packet.**
