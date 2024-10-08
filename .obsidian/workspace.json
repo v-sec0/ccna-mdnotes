@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSPF/OSPF Overview.md",
+                "file": "L2/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSPF/OSPF Overview.md",
+                "file": "L2/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSPF/OSPF Overview.md",
+                "file": "L2/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSPF/OSPF Overview.md"
+                "file": "L2/Untitled.md"
               }
             }
           },
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,10 +157,11 @@
   },
   "active": "1d4943964a90be86",
   "lastOpenFiles": [
+    "L2/L2 Security Configuration.md",
+    "L2/Untitled.md",
+    "OSPF/OSPF Overview.md",
     "OSPF/OSPF Configuration.md",
     "L2/Layer 2 Switching Overview.md",
-    "L2/L2 Security Configuration.md",
-    "OSPF/OSPF Overview.md",
     "L2",
     "OSPF",
     "Open Shortest Path First (OSPF).md",
