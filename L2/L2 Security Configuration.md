@@ -20,7 +20,7 @@ SW1(config-if)#switchport port-security mac-address <mac-address> or <sticky>
 ```
 
 >[!tip]
->Using the 'sticky' keyword, the port will automatically derive a secure MAC address from whatever device is connected to the interface. It will only collect the maximum of allowed secure MAC addresses.
+>Using the **sticky** keyword, the port will automatically derive a secure MAC address from whatever device is connected to the interface. It will only collect the maximum of allowed secure MAC addresses.
 
 **Setting a violation rule**
 ```
