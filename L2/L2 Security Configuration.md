@@ -14,5 +14,20 @@ To change this, the following commands can be issued:
 SW1(config-if)#switchport port-security maximum <number>
 ```
 
-bSe
+**Setting a specific MAC address:**
+```
+SW1(config-if)#switchport port-security mac-address <mac-address> or <sticky>
+```
 
+>[!tip]
+>Using the 'sticky' keyword, the port will automatically derive a secure MAC address from whatever device is connected to the interface. It will only collect the maximum of allowed secure MAC addresses.
+
+**Setting a violation rule**
+```
+SW1(config-if)#switchport port-security violation <rule>
+```
+
+The rules are as follows:
+1. Protect = drop frames received
+2. Restrict = drop received frames and send an SNMP trap.
+3. Shutdown = disable interface and send an SNMP trap
