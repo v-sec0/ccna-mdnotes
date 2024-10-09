@@ -55,7 +55,7 @@ Trunk ports allow for VLAN traffic to span across multiple switches in the netwo
 >This kept their communication separated and avoids any confusion.
 
 
-### 802.1q
+### 802.1q & ISL
 ---
 802.1q or dot1Q is a standard developed by the IEEE for frame tagging. 
 
@@ -63,9 +63,10 @@ It allows for the insertion of VLAN information into frames and packets that tra
 
 With 802.1Q a frame sent from a switch to a router will maintain it's VLAN information and allow the destination device to make informed decisions based on upon it's contents. 
 
-Cisco has it's own standard for frame tagging called Inter-Switch Link (ISL). 
+Cisco has it's own proprietary standard for frame tagging called Inter-Switch Link (ISL). 
 
->[!warning]
+>[!note]
 >Cisco is phasing out support for ISL in favor of 802.1Q due to it's open nature
 
+ISL works **by encapsulating frames with control information**, while dot1Q **inserts a field into a frame.**
 
