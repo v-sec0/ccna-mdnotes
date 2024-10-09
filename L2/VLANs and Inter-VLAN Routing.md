@@ -70,3 +70,11 @@ Cisco has it's own proprietary standard for frame tagging called Inter-Switch Li
 
 ISL works **by encapsulating frames with control information**, while dot1Q **inserts a field into a frame.**
 
+### Inter-VLAN Routing
+---
+In order for VLANs to communicate with each other 1 of 3 scenarios are needed:
+##### 1. A router has several links connected to the switch (or switches) with dedicated links for each VLAN (and subnet).
+	With this option, the switch can set each link to **access mode.** 
+##### 2. A router has one physical link with several sub-interfaces for each VLAN (and subnet).
+	- With this option, the switch must set the interface connected to the router as a **trunk.**
+3. A L3 Switch is configured with a **Switched Virtual Interface**
