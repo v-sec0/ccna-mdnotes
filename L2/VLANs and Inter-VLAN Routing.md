@@ -1,6 +1,5 @@
 ### Introduction
 ---
-
 Virtual LANs (VLANs) allow for the segmentation of layer 2 networks. 
 
 Some of the benefits of VLANs are:
@@ -44,10 +43,8 @@ VLAN information on the frame is removed before being sent to an device on an ac
 Devices on an access port cannot communicate with devices outside of their VLAN unless the traffic is routed. 
 
 
-
 ### Trunk Ports 
 ---
-
 Trunk ports are switch ports that are configured to support traffic from all VLANs or a select few of approved VLANs. 
 
 Trunk ports allow for VLAN traffic to span across multiple switches in the network. 
@@ -56,4 +53,19 @@ Trunk ports allow for VLAN traffic to span across multiple switches in the netwo
 >Typically, devices in different VLANs are configured with different L3 Network addresses. 
 >
 >This kept their communication separated and avoids any confusion.
+
+
+### 802.1q
+---
+802.1q or dot1Q is a standard developed by the IEEE for frame tagging. 
+
+It allows for the insertion of VLAN information into frames and packets that travel across different devices. 
+
+With 802.1Q a frame sent from a switch to a router will maintain it's VLAN information and allow the destination device to make informed decisions based on upon it's contents. 
+
+Cisco has it's own standard for frame tagging called Inter-Switch Link (ISL). 
+
+>[!warning]
+>Cisco is phasing out support for ISL in favor of 802.1Q due to it's open nature
+
 
