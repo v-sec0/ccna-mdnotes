@@ -75,7 +75,9 @@ ISL works **by encapsulating frames with control information**, while dot1Q **in
 In order for VLANs to communicate with each other 1 of 3 scenarios are needed:
 1. A router has several links connected to the switch (or switches) with dedicated links for each VLAN (and subnet).
 	- With this option, the switch can set each link to **access mode.**
-	- `Router# `
 1. A router has one physical link with several sub-interfaces for each VLAN (and subnet).
 	- With this option, the switch must set the interface connected to the router as a **trunk.**
-2. A L3 Switch is configured with a Switched Virtual Interface
+	- `encapsulation dot1Q <vlan>` needs to be set for all sub-interfaces.
+	- `ip routing` also needs to be enabled.
+1. A L3 Switch is configured with a **Switched Virtual Interface**
+	- Similar to the router setup. 
