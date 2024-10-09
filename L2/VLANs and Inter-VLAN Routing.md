@@ -24,7 +24,7 @@ SW1(config-vlan)#name <name>
 
 By default, a switch port configured to a particular VLAN are only allowed to received and send traffic to interfaces that are in their VLAN.
 
->[!note]
+>[!tip]
 >A switch port can only belong to one VLAN, if it's an access port; or all VLANs if it's a trunk port.
 
 The only interface that is allowed to communicate across VLANs are **trunk ports.**
@@ -49,7 +49,7 @@ Trunk ports are switch ports that are configured to support traffic from all VLA
 
 Trunk ports allow for VLAN traffic to span across multiple switches in the network. 
 
->[!note]
+>[!tip]
 >Typically, devices in different VLANs are configured with different L3 Network addresses. 
 >
 >This kept their communication separated and avoids any confusion.
@@ -65,7 +65,7 @@ With 802.1Q a frame sent from a switch to a router will maintain it's VLAN infor
 
 Cisco has it's own proprietary standard for frame tagging called Inter-Switch Link (ISL). 
 
->[!note]
+>[!tip]
 >Cisco is phasing out support for ISL in favor of 802.1Q due to it's open nature
 
 ISL works **by encapsulating frames with control information**, while dot1Q **inserts a field into a frame.**
@@ -73,8 +73,9 @@ ISL works **by encapsulating frames with control information**, while dot1Q **in
 ### Inter-VLAN Routing
 ---
 In order for VLANs to communicate with each other 1 of 3 scenarios are needed:
-##### 1. A router has several links connected to the switch (or switches) with dedicated links for each VLAN (and subnet).
-	With this option, the switch can set each link to **access mode.** 
-##### 2. A router has one physical link with several sub-interfaces for each VLAN (and subnet).
+1. A router has several links connected to the switch (or switches) with dedicated links for each VLAN (and subnet).
+	- With this option, the switch can set each link to **access mode.**
+	- `Router# `
+1. A router has one physical link with several sub-interfaces for each VLAN (and subnet).
 	- With this option, the switch must set the interface connected to the router as a **trunk.**
-3. A L3 Switch is configured with a **Switched Virtual Interface**
+2. A L3 Switch is configured with a Switched Virtual Interface
