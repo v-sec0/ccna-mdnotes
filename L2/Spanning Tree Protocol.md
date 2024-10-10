@@ -44,7 +44,7 @@ An **alternative port** is a port that's on a switch that connect to a LAN segme
 
 ##### Port States
 
-
+#TODO
 
 
 
