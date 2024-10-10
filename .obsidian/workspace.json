@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3aa55e74bdc9471b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L2/Spanning Tree Protocol.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L2/VLANs and Inter-VLAN Routing.md",
+                "file": "L2/Spanning Tree Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L2/VLANs and Inter-VLAN Routing.md",
+                "file": "L2/Spanning Tree Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L2/VLANs and Inter-VLAN Routing.md"
+                "file": "L2/Spanning Tree Protocol.md"
               }
             }
           },
@@ -156,11 +169,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1d4943964a90be86",
+  "active": "3aa55e74bdc9471b",
   "lastOpenFiles": [
+    "L2/VLANs and Inter-VLAN Routing.md",
+    "L2/Spanning Tree Protocol.md",
     "L2/L2 Security Configuration.md",
     "OSPF/OSPF Configuration.md",
-    "L2/VLANs and Inter-VLAN Routing.md",
     "L2/Layer 2 Switching Overview.md",
     "OSPF/OSPF Overview.md",
     "L2",
