@@ -27,6 +27,9 @@ The port that is decided to have the best route to the root bridge is called the
 - The **path cost** is the accumulative sum of the port cost of a given path to the root bridge.
 - **THERE CAN ONLY BE ONE!**
 
+A **designated port** are ports that carry traffic away from the root bridge to various segments.
+- On each segment there is **at least one** designated port that brings traffic from the root bridge. 
+- There can be multiple designated ports for multiple segments.
 
 
 
