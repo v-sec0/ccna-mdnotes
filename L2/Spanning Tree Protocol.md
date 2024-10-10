@@ -4,6 +4,8 @@
 
 It works by assigning a switch to be the **root bridge** and building the L2 routes around that root bridge.
 
+### Bridges and Switches
+---
 The root bridge is decided by the switch with the lowest, and therefore, **the best bridge ID.** 
 
 A bridge ID is what STP uses **to keep track of the switches in the network.**
@@ -17,10 +19,17 @@ flowchart LR
 ```
 
 
+### Ports
+---
 The port that is decided to have the best route to the root bridge is called the **root port.**
 - The best port is decided based upon the **port cost**, the lower the better. 
 - Port cost is considered when there are multiple links between two switches.
 - The **path cost** is the accumulative sum of the port cost of a given path to the root bridge.
+- **THERE CAN ONLY BE ONE!**
+
+
+
+
 
 
 
