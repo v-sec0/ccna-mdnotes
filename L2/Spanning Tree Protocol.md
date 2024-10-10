@@ -11,8 +11,9 @@ A bridge ID is what STP uses **to keep track of the switches in the network.**
 - The bridge ID is usually transfer to neighboring switches inside a **Bridge Protocol Data Unit (BPDU).**
 - A BDPU can contain multiple Bridge ID information for multiple switches
 
-```
-
+``` mermaid
+flowchart LR
+	A[Switch A] --BDPU (A)--> B[Switch B] --BDPU (A,B)--> C[Switch C]
 ```
 
 
