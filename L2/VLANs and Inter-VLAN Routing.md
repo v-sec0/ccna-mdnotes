@@ -61,7 +61,7 @@ Trunk ports allow for VLAN traffic to span across multiple switches in the netwo
 
 It allows for the insertion of VLAN information into frames and packets that travel across different devices. 
 
-With 802.1Q a frame sent from a switch to a router will maintain it's VLAN information and allow the destination device to make informed decisions based on upon it's contents. 
+With 802.1Q, a frame sent from a switch to a router will maintain it's VLAN information and allow the destination device to make informed decisions based on upon it's contents. 
 
 Cisco has it's own proprietary standard for frame tagging called Inter-Switch Link (ISL). 
 
@@ -80,4 +80,5 @@ In order for VLANs to communicate with each other 1 of 3 scenarios are needed:
 	- `encapsulation dot1Q <vlan>` needs to be set for all sub-interfaces.
 	- `ip routing` also needs to be enabled.
 1. A L3 Switch is configured with a **Switched Virtual Interface**
-	- Similar to the router setup. 
+	- `vlan <vlan_id` is used to create the VLAN
+	- `ip addr <ip> <mask>` is used to create IP information for that specific VLAN interface.
