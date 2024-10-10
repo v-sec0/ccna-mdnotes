@@ -29,8 +29,9 @@ The port that is decided to have the best route to the root bridge is called the
 
 A **designated port** are ports that carry traffic away from the root bridge to various segments.
 - On each segment there is **at least one** designated port that brings traffic from the root bridge. 
-- There can be multiple designated ports for multiple segments.
+- A switch will have one root port to the root bridge, but have a designated port(s) if it connects to other segments to forward traffic to them from the root bridge.
 
+A **non-designated port** are ports that are put into blocking or discard mode. 
 
 
 
