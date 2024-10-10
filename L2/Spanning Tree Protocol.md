@@ -21,6 +21,8 @@ flowchart LR
 
 ### Ports
 ---
+##### Types of Ports
+
 The port that is decided to have the best route to the root bridge is called the **root port.**
 - The best port is decided based upon the **port cost**, the lower the better. 
 - Port cost is considered when there are multiple links between two switches.
@@ -32,6 +34,17 @@ A **designated port** are ports that carry traffic away from the root bridge to 
 - A switch will have one root port to the root bridge, but have a designated port(s) if it connects to other segments to forward traffic to them from the root bridge.
 
 A **non-designated port** are ports that are put into blocking or discard mode after the root port and designated port(s) are decided.
+
+A **blocking port** is a port that listens for BDPUs but won't forward frames.
+
+A **forwarding port** is a port that forwards frames; will be either the root port or designated port.
+
+An **alternative port** is a port that's on a switch that connect to a LAN segment with two or more switches where one of the other switches is assigned as a designated route and connects to the other.
+- A similar concept is a **blocking port** which is a backup for the alternative port.
+
+##### Port States
+
+
 
 
 
