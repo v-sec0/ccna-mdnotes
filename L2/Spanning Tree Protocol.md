@@ -44,9 +44,17 @@ An **alternative port** is a port that's on a switch that connect to a LAN segme
 
 ##### Port States
 
-#TODO
+A **blocked port** is a port that is configured to receive BDPUs but not forward any traffic. 
+- Helps prevent looped paths
 
+A **disabled port** is a port that is essentially non-operational and does not participate in STP
 
+A **forwarding port** is a port sends and received all data on the bridged port
+
+A **listening port** is a port that listens for BDPUs to make sure no loops occur on the network before passing data frames.
+- A port in the listening state prepares to forward data frames without populating the MAC address table. 
+
+A **learning port** is a port that listens to BDPUs and learns all the path in a switched network
 
 
 
