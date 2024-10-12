@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L2/STP Operation.md",
+                "file": "L2/L2 Security Configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L2/STP Operation.md",
+                "file": "L2/L2 Security Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L2/STP Operation.md",
+                "file": "L2/L2 Security Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L2/STP Operation.md"
+                "file": "L2/L2 Security Configuration.md"
               }
             }
           },
@@ -171,14 +171,14 @@
   },
   "active": "a8b165d4e437b04e",
   "lastOpenFiles": [
-    "L2/STP Overview.md",
-    "L2/VLANs and Inter-VLAN Routing.md",
-    "L2/STP Operation.md",
     "OSPF/OSPF Configuration.md",
-    "OSPF/OSPF Overview.md",
+    "L2/VLANs and Inter-VLAN Routing.md",
+    "L2/STP Overview.md",
+    "L2/STP Operation.md",
     "L2/Layer 2 Switching Overview.md",
-    "il_fullxfull.3172886855_5smy.webp",
     "L2/L2 Security Configuration.md",
+    "OSPF/OSPF Overview.md",
+    "il_fullxfull.3172886855_5smy.webp",
     "L2",
     "OSPF",
     "Open Shortest Path First (OSPF).md",

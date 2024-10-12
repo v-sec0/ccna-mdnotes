@@ -1,4 +1,5 @@
 ### Enabling OSPF on a Router
+---
 
 ```
 R1#conf t
@@ -7,6 +8,7 @@ R1(config-router)#network <network-address> <wildcard_mask> <area_id>
 ```
 
 ### Checking OSPF Configuration
+---
 
 **Shows configuration information for each OSPF process**
 ```
