@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L2/Spanning Tree Protocol.md",
+                "file": "L2/STP Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8b165d4e437b04e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L2/STP Operation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L2/Spanning Tree Protocol.md",
+                "file": "L2/STP Operation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L2/Spanning Tree Protocol.md",
+                "file": "L2/STP Operation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L2/Spanning Tree Protocol.md"
+                "file": "L2/STP Operation.md"
               }
             }
           },
@@ -156,10 +169,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3aa55e74bdc9471b",
+  "active": "a8b165d4e437b04e",
   "lastOpenFiles": [
+    "L2/STP Overview.md",
+    "L2/STP Operation.md",
     "L2/Layer 2 Switching Overview.md",
-    "L2/Spanning Tree Protocol.md",
     "OSPF/OSPF Overview.md",
     "il_fullxfull.3172886855_5smy.webp",
     "L2/VLANs and Inter-VLAN Routing.md",
