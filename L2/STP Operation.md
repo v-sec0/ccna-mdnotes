@@ -1,5 +1,6 @@
 
 ### Things to Remember
+---
 
 | **Speed**    | Priority |
 | ------------ | -------- |
@@ -16,4 +17,10 @@ The root bridge is selected by the switch with the lowest (best) bridge ID.
 - The bridge ID is calculated by combination of the priority level and the MAC address. 
 - The priority level being represented by **2 bytes (16-bit)** and the MAC address, **6 bytes (48-bit).**
 - Read the MAC address left to right to figure out which is the lowest. Only stop once you find a lower value.
+Best practice is to artificially select a root bridge by lowering the bridge priority.
+- This ensures the best paths are selected.
 
+
+### Types of Spanning Tree Protocols
+---
+1. **IEEE 802.1d** is the original standard for STP and bridging
