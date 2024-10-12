@@ -23,4 +23,5 @@ Best practice is to artificially select a root bridge by lowering the bridge pri
 
 ### Types of Spanning Tree Protocols
 ---
-1. **IEEE 802.1d** is the original standard for STP and bridging
+1. **IEEE 802.1d** is the original standard for STP and bridging. It's really slow, but is good for very little bridge resources. This is commonly referred to as **Common Spanning Tree.**
+2. **Per-VLAN Spanning Tree (PSVT+)** is a Cisco proprietary standard for STP and is the default. It creates separate 802.1d
