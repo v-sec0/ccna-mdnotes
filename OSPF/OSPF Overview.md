@@ -1,4 +1,5 @@
-**Compared to RIPv2:**
+### Compared to RIPv2
+---
 
 | Characteristic                | **OSPF**                | RIPv2                  |
 | ----------------------------- | ----------------------- | ---------------------- |
@@ -27,8 +28,8 @@ A hierarchal design allows larger internetworks to be segmented into smaller int
 
 Multiple autonomous systems can be connected together. The router that connects these ASs together is called an **Autonomous System Boundary Router (ASBR).**
 
-## OSPF Terminology
-
+### OSPF Terminology
+---
 **Link:** A network or router interface assigned to any given network. When an interface is added to the OSPF process it's considered to be a link. 
 
 **Router ID:** The name of a router in the OSPF process. This is usually derived from the highest loopback IP on the router, but if that's not available, the highest interface IP address is used. 
@@ -63,16 +64,17 @@ Multiple autonomous systems can be connected together. The router that connects 
 
 **Point-to-multipoint:** A type of network topology made of a single interface on a router connected to multiple destination routers. This can be further classified according to whether or not it supports broadcast traffic. This is important as it determines the kind of OSPF configuration that can be deployed.
 
-## OSPF Operation
+### OSPF Operation
+---
 This can be divided into **three categories:**
 1. Neighbor and adjacency initialization
 2. LSA flooding
 3. SPF calculation
 
-#### Neighbor and Adjacency Initialization
+##### Neighbor and Adjacency Initialization
 The Hello protocol is used to discover neighbors and establish adjacencies, and maintain relationships with other OSPF routers. In environments that support multicast traffic, Hello packets are sent out periodically. The address for this multicast traffic is **224.0.0.5**. Broadcast and P2P networks sent Hellos every 10s, for P2MP and non-broadcast networks Hellos are sent every 30s.
 
-#### LSA Flooding
+##### LSA Flooding
 After the neighborships and adjacencies are formed, the OSPF routers send Link State Update (LSU) packets containing LSAs. An LSU packet contains a number of LSAs which provide link-state information about all the OSPF routers within the area. Network topology is created using the information within LSU packets. After the initial flooding, LSAs are only sent out when changes occur in the network.
 
 | Network Type               | Multicast Address                  | Description    |
@@ -99,9 +101,10 @@ OSPF Router 1->>+OSPF Router 2: Here's what I need (LSR)
 OSPF Router 2->>-OSPF Router 1: Here's what I have on it (LSU)
 OSPF Router 1->>+OSPF Router 2: Thanks, got it! (LSAck)
 ```
-#### SPF Tree Calculation
+##### SPF Tree Calculation
 An OSPF router calculates the best route using the Shortest Path First algorithm which arranges the routers in a tree like structure with the routers are the roots and the different networks are along branches and leaves.
-##### OSPF Metrics
+
+**OSPF Metrics**
 The metric OSPF uses is referred to as *cost*. The cost of an entire path is the sum of the cost of the outgoing interfaces along the path. For Cisco, cost is defined as $10^{8}$/bandwidth.
 
 
