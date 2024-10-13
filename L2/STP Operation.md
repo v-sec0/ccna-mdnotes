@@ -48,3 +48,15 @@ However, there are some terminology changes when it comes to working with 802.1w
 2. `show spanning-tree` shows information about the STP on the switch
 3. `spanning-tree vlan <vlan_id> priority <0-61440`sets the priority level of a switch for a particular VLAN. 
 4. `spanning-tree vlan <vlan> root <primary/secondary>` sets the switch as either the primary or secondary root bridge.
+5. `show spanning-tree summary` gives a comprehensive look at the status of STP for each VLAN on a switch
+6. `spanning-tree mode rapid-pvst` changes the STP mode to RSTP
+
+### Common STP Failures
+---
+If a port that should be in blocking state changes to a forwarding state, many different issues can occur on a network. If there is broadcast traffic, all ports on a switch may be flooded with traffic causing: 
+1. Slow speeds as the CPU is being overwhelmed with endless processes
+2. Unusable MAC table as the same source address is coming from different ports
+3. Complete network failure; switches may stop working due to high CPU usage. 
+The best remedy for a troubled network is to remove all redundant links and connect them one at a time. This allows you to figure out which link is causing the issue. 
+
+Another issue may arise from a port that's supposed to be forwarding changing to a blocking state. In this case, the segment that is blocked with lose connection, but 
