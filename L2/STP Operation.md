@@ -28,3 +28,17 @@ Best practice is to artificially select a root bridge by lowering the bridge pri
 3. **802.1w (RSTP)** is a standard that enhanced the BDPUs exchange process, paving the way for a faster convergence time. While less resource intensive as PSVT+, it still uses more resources that CST. This is commonly referred to as **Rapid Spanning Tree Protocol.**
 4. **802.1s (MST)** was a Cisco proprietary standard before becoming an IEEE standard. It works the same as PVST but instead of having an CST instance for each VLAN, it allows VLANs with similar traffic patterns to use one CST instance. This is commonly referred to as **Multiple Spanning Tree.**
 5. **Rapid PVST+** is Cisco's version of RSTP that also uses PVST+ to create separate RSTP instances for each VLAN. It's the most optimal for speed and traffic flow, but is the most resource intensive.
+
+### Addressing the Differences 
+---
+RSPT (802.1w) is more of an evolution of CST (802.1d). While maintaining it's backwards compatibility, 802.1w improves the convergence time of STP. 
+
+However, there are some terminology changes when it comes to working with 802.1w:
+
+| **802.1d Term** | **802.1w Term** |
+| --------------- | --------------- |
+| Disabled        | *Discarding*      |
+| Blocking        | *Discarding*      |
+| Listening       | *Discarding*      |
+| Learning        | *Learning*        |
+| Forwarding      | *Forwarding*      |

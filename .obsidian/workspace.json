@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "188865b80ed7bd9b",
+        "id": "c440507c238a1112",
         "type": "tabs",
         "children": [
           {
-            "id": "3aa55e74bdc9471b",
+            "id": "37c772973c5b554c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L2/STP Overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8b165d4e437b04e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L2/L2 Security Configuration.md",
+                "file": "L2/STP Operation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f51ac315f4b92699",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L2/L2 Security Configuration.md",
+                "file": "L2/STP Operation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L2/L2 Security Configuration.md",
+                "file": "L2/STP Operation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L2/L2 Security Configuration.md"
+                "file": "L2/STP Operation.md"
               }
             }
           },
@@ -169,16 +157,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a8b165d4e437b04e",
+  "active": "37c772973c5b554c",
   "lastOpenFiles": [
-    "OSPF/OSPF Configuration.md",
-    "L2/VLANs and Inter-VLAN Routing.md",
     "L2/STP Overview.md",
+    "L2/Spanning Tree Protocol.md",
     "L2/STP Operation.md",
-    "L2/Layer 2 Switching Overview.md",
-    "L2/L2 Security Configuration.md",
     "OSPF/OSPF Overview.md",
     "il_fullxfull.3172886855_5smy.webp",
+    "L2/VLANs and Inter-VLAN Routing.md",
+    "L2/L2 Security Configuration.md",
+    "OSPF/OSPF Configuration.md",
+    "L2/Layer 2 Switching Overview.md",
     "L2",
     "OSPF",
     "Open Shortest Path First (OSPF).md",
