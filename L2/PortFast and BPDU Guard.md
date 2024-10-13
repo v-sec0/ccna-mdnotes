@@ -1,6 +1,7 @@
 ### Introduction
 ---
-
+>[!warning]
+>**If BDPU Guard is enabled**, do not plug in a switch or any other device that could cause a loop in the network. The interface will shutdown!
 
 **PortFast and BDPU Guard** are methods that can help alleviate the risk of STP failures. 
 
