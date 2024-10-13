@@ -46,3 +46,5 @@ However, there are some terminology changes when it comes to working with 802.1w
 ---
 1. `show cdp neighbors` shows information about connected devices and can be used to find the root bridge.
 2. `show spanning-tree` shows information about the STP on the switch
+3. `spanning-tree vlan <vlan_id> priority <0-61440`sets the priority level of a switch for a particular VLAN. 
+4. `spanning-tree vlan <vlan> root <primary/secondary>` sets the switch as either the primary or secondary root bridge.
