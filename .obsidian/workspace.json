@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4b3f0864114bd9a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L2/PortFast and BPDU Guard.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f51ac315f4b92699",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L2/STP Operation.md",
+                "file": "L2/PortFast and BPDU Guard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L2/STP Operation.md",
+                "file": "L2/PortFast and BPDU Guard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L2/STP Operation.md"
+                "file": "L2/PortFast and BPDU Guard.md"
               }
             }
           },
@@ -157,11 +169,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37c772973c5b554c",
+  "active": "4b3f0864114bd9a8",
   "lastOpenFiles": [
+    "L2/STP Operation.md",
+    "L2/PortFast and BPDU Guard.md",
     "L2/STP Overview.md",
     "L2/Spanning Tree Protocol.md",
-    "L2/STP Operation.md",
     "OSPF/OSPF Overview.md",
     "il_fullxfull.3172886855_5smy.webp",
     "L2/VLANs and Inter-VLAN Routing.md",

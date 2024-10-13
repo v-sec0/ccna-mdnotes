@@ -59,4 +59,4 @@ If a port that should be in blocking state changes to a forwarding state, many d
 3. Complete network failure; switches may stop working due to high CPU usage. 
 The best remedy for a troubled network is to remove all redundant links and connect them one at a time. This allows you to figure out which link is causing the issue. 
 
-Another issue may arise from a port that's supposed to be forwarding changing to a blocking state. In this case, the segment that is blocked with lose connection, but 
+Another issue may arise from a port that's supposed to be forwarding changing to a blocking state. In this case, the segment that is blocked with lose connection, but traffic may persist for other areas of the network. 
