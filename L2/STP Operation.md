@@ -24,8 +24,8 @@ Best practice is to artificially select a root bridge by lowering the bridge pri
 ### Types of Spanning Tree Protocols
 ---
 1. **IEEE 802.1d (CST)** is the original standard for STP and bridging. It's really slow, but is good for very little bridge resources. This is commonly referred to as **Common Spanning Tree.**
-2. **Per-VLAN Spanning Tree (PSVT+)** is a Cisco proprietary standard for STP and is the default. It creates separate 802.1d instances for each VLAN. While it does create more efficiency, it does consume more resources that CST
-3. **802.1w (RSTP)** is a standard that enhanced the BDPUs exchange process, paving the way for a faster convergence time. While less resource intensive as PSVT+, it still uses more resources that CST. This is commonly referred to as **Rapid Spanning Tree Protocol.**
+2. ==**Per-VLAN Spanning Tree (PSVT+)**== is a Cisco proprietary standard for STP and **is the default**. It creates separate 802.1d instances for each VLAN. While it does create more efficiency, it does consume more resources that CST
+3. **IEEE 802.1w (RSTP)** is a standard that enhanced the BDPUs exchange process, paving the way for a faster convergence time. While less resource intensive as PSVT+, it still uses more resources that CST. This is commonly referred to as **Rapid Spanning Tree Protocol.**
 4. **802.1s (MST)** was a Cisco proprietary standard before becoming an IEEE standard. It works the same as PVST but instead of having an CST instance for each VLAN, it allows VLANs with similar traffic patterns to use one CST instance. This is commonly referred to as **Multiple Spanning Tree.**
 5. **Rapid PVST+** is Cisco's version of RSTP that also uses PVST+ to create separate RSTP instances for each VLAN. It's the most optimal for speed and traffic flow, but is the most resource intensive.
 
