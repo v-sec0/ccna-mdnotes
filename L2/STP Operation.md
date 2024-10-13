@@ -42,3 +42,7 @@ However, there are some terminology changes when it comes to working with 802.1w
 | Listening       | *Discarding*      |
 | Learning        | *Learning*        |
 | Forwarding      | *Forwarding*      |
+### Commands to Know
+---
+1. `show cdp neighbors` shows information about connected devices and can be used to find the root bridge.
+2. `show spanning-tree` shows information about the STP on the switch
