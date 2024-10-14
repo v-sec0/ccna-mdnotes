@@ -63,7 +63,8 @@ In some scenarios, such as virtualization, you may need to trunk VLANS down to t
 
 Native VLAN is required to be set for all untagged traffic travelling over a trunk port. 
 - In order for a trunk port to work, **both sides need to have the same native VLAN.**
-- Typically, this would be set to the default VLAN 1, but there are known security-issues with using this VLAN so **it's recommended to be set to an unused VLAN.**
+>[!note]
+>Typically, this would be set to the default VLAN 1, but there are known security-issues with using this VLAN so **it's recommended to be set to an unused VLAN.**
 - `switchport trunk native vlan <vlan>` is used to set the native VLAN.
 
 Trunk ports allow the ability to limit allowed VLANs over the port. **This increases security and increases performance by saving bandwidth.** 
