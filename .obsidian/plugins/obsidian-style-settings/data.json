@@ -1,7 +1,7 @@
 {
   "ulu-theme-settings@@ulu-colorfo-headings": false,
   "ulu-theme-settings@@ulu-accent-title": true,
-  "ulu-theme-settings@@ulu-subtheme-selection": "none",
+  "ulu-theme-settings@@ulu-subtheme-selection": "ulu-origami",
   "ulu-theme-settings@@ulu-grad": false,
   "ulu-theme-settings@@ulu-bar": false,
   "ulu-theme-settings@@ulu-list-distinct": false,
@@ -15,10 +15,16 @@
   "Components@@tab-autohide": false,
   "Components@@outline-enhanced": false,
   "Appearance-dark@@card-layout-open-dark": true,
-  "ulu-theme-settings@@ulu-prop-card": true,
+  "ulu-theme-settings@@ulu-prop-card": false,
   "ulu-theme-settings@@ulu-cards-border": true,
-  "ulu-theme-settings@@ulu-cards-shadow": false,
+  "ulu-theme-settings@@ulu-cards-shadow": true,
   "ulu-theme-settings@@ulu-theme-dark": "ulu-con-d",
   "ulu-theme-settings@@ulu-callouts": "ulu-nt-callouts",
-  "ulu-theme-settings@@ulu-codeblocks": "ulu-gummy-codeblock"
+  "ulu-theme-settings@@ulu-codeblocks": "none",
+  "ulu-theme-settings@@ulu-notitle": false,
+  "ulu-theme-settings@@ulu-scrollbars": true,
+  "ulu-theme-settings@@ulu-theme-light": "ulu-con-l",
+  "ulu-theme-settings@@responsive-text": 1,
+  "ulu-theme-settings@@ulu-faintselect": false,
+  "ulu-theme-settings@@ulu-canvas-center": false
 }

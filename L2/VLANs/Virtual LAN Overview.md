@@ -65,6 +65,7 @@ Native VLAN is required to be set for all untagged traffic travelling over a tru
 - In order for a trunk port to work, **both sides need to have the same native VLAN.**
 >[!note]
 >Typically, this would be set to the default VLAN 1, but there are known security-issues with using this VLAN so **it's recommended to be set to an unused VLAN.**
+
 - `switchport trunk native vlan <vlan>` is used to set the native VLAN.
 
 Trunk ports allow the ability to limit allowed VLANs over the port. **This increases security and increases performance by saving bandwidth.** 
@@ -88,7 +89,6 @@ ISL works **by encapsulating frames with control information**, while dot1Q **in
 ---
 In order for VLANs to communicate with each other 1 of 3 scenarios are needed:
 1. A router has several links connected to the switch (or switches) with dedicated links for each VLAN (and subnet).
-	- With this option, the switch can set each link to **access mode.**
 2. A router has one physical link with several sub-interfaces for each VLAN (and subnet).
 	- With this option, the switch must set the interface connected to the router as a **trunk.**
 	- `encapsulation dot1Q <vlan>` needs to be set for all sub-interfaces.
