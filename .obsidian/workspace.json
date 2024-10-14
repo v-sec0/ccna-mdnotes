@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L2/Spanning Tree Protocol/STP Overview.md",
+                "file": "L2/Spanning Tree Protocol/STP Operation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L2/Spanning Tree Protocol/STP Overview.md",
+                "file": "L2/Spanning Tree Protocol/STP Operation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L2/Spanning Tree Protocol/STP Overview.md",
+                "file": "L2/Spanning Tree Protocol/STP Operation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L2/Spanning Tree Protocol/STP Overview.md"
+                "file": "L2/Spanning Tree Protocol/STP Operation.md"
               }
             }
           },
@@ -156,10 +156,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21ab9896ab1ecb0a",
+  "active": "1cf7682f830a7cba",
   "lastOpenFiles": [
-    "L2/Spanning Tree Protocol/STP Operation.md",
     "L2/Spanning Tree Protocol/STP Overview.md",
+    "L2/Spanning Tree Protocol/STP Operation.md",
     "L2/Spanning Tree Protocol/PortFast and BPDU Guard.md",
     "L2/EtherChannel.md",
     "L2/L2 Security Configuration.md",
