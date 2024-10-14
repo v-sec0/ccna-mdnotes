@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "21ab9896ab1ecb0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a8b165d4e437b04e",
             "type": "leaf",
             "state": {
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f51ac315f4b92699",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L2/VLANs.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L2/VLANs.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L2/VLANs.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -170,16 +181,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a8b165d4e437b04e",
+  "active": "21ab9896ab1ecb0a",
   "lastOpenFiles": [
-    "L2/L2 Security Configuration.md",
+    "L2/STP Overview.md",
+    "Untitled.md",
     "L2/VLANs.md",
+    "L2/L2 Security Configuration.md",
     "L2/PortFast and BPDU Guard.md",
     "L2/L2 Switching Overview.md",
     "L2/EtherChannel.md",
     "OSPF/OSPF Configuration.md",
     "L2/VLANs and Inter-VLAN Routing.md",
-    "L2/STP Overview.md",
     "L2/STP Operation.md",
     "L2/Layer 2 Switching Overview.md",
     "OSPF/OSPF Overview.md",

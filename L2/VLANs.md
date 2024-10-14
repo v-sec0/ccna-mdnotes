@@ -60,6 +60,14 @@ Trunk ports allow for VLAN traffic to span across multiple switches in the netwo
 In some scenarios, such as virtualization, you may need to trunk VLANS down to the host. 
 
 `switchport mode trunk` is used to set an interface to trunk.
+
+Native VLAN is required to be set for all untagged traffic travelling over a trunk port. 
+- In order for a trunk port to work, **both sides need to have the same native VLAN.**
+- Typically, this would be set to the default VLAN 1, but there are known security-issues with using this VLAN so **it's recommended to be set to an unused VLAN.**
+- `switchport trunk native vlan <vlan>` is used to set the native VLAN.
+
+Trunk ports allow the ability to limit allowed VLANs over the port. **This increases security and increases performance by saving bandwidth.** 
+- `switchport trunk allow vlans <vlan(s)>` is used to set allowed VLANs
 ### 802.1q & ISL
 ---
 802.1q or dot1Q is a standard developed by the IEEE for frame tagging. 
@@ -68,10 +76,10 @@ It allows for the insertion of VLAN information into frames and packets that tra
 
 With 802.1Q, a frame sent from a switch to a router will maintain it's VLAN information and allow the destination device to make informed decisions based on upon it's contents. 
 
-Cisco has it's own proprietary standard for frame tagging called Inter-Switch Link (ISL). 
+Cisco had it's own proprietary standard for frame tagging called Inter-Switch Link (ISL). 
 
 >[!tip]
->Cisco is phasing out support for ISL in favor of 802.1Q due to it's open nature
+>Cisco has phased out support for ISL in favor of 802.1Q due to it's open nature
 
 ISL works **by encapsulating frames with control information**, while dot1Q **inserts a field into a frame.**
 
@@ -87,4 +95,3 @@ In order for VLANs to communicate with each other 1 of 3 scenarios are needed:
 3. A L3 Switch is configured with a **Switched Virtual Interface**
 	- `vlan <vlan_id` is used to create the VLAN
 	- `ip addr <ip> <mask>` is used to create IP information for that specific VLAN interface.
-For inter-VLAN routing, 
