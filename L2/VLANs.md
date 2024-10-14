@@ -44,7 +44,8 @@ Devices on an access port cannot communicate with devices outside of their VLAN 
 
 End hosts **are not** VLAN aware.
 
-
+`switchport mode access` is used to enabled access mode on an interface.
+- `switchport access vlan <vlan>` is used to specify a VLAN for an interface.
 ### Trunk Ports 
 ---
 Trunk ports are switch ports that are configured to support traffic from all VLANs or a select few of approved VLANs. 
@@ -57,6 +58,8 @@ Trunk ports allow for VLAN traffic to span across multiple switches in the netwo
 >This kept their communication separated and avoids any confusion.
 
 In some scenarios, such as virtualization, you may need to trunk VLANS down to the host. 
+
+`switchport mode trunk` is used to set an interface to trunk.
 ### 802.1q & ISL
 ---
 802.1q or dot1Q is a standard developed by the IEEE for frame tagging. 
@@ -77,10 +80,11 @@ ISL works **by encapsulating frames with control information**, while dot1Q **in
 In order for VLANs to communicate with each other 1 of 3 scenarios are needed:
 1. A router has several links connected to the switch (or switches) with dedicated links for each VLAN (and subnet).
 	- With this option, the switch can set each link to **access mode.**
-1. A router has one physical link with several sub-interfaces for each VLAN (and subnet).
+2. A router has one physical link with several sub-interfaces for each VLAN (and subnet).
 	- With this option, the switch must set the interface connected to the router as a **trunk.**
 	- `encapsulation dot1Q <vlan>` needs to be set for all sub-interfaces.
 	- `ip routing` also needs to be enabled.
-1. A L3 Switch is configured with a **Switched Virtual Interface**
+3. A L3 Switch is configured with a **Switched Virtual Interface**
 	- `vlan <vlan_id` is used to create the VLAN
 	- `ip addr <ip> <mask>` is used to create IP information for that specific VLAN interface.
+For inter-VLAN routing, 
