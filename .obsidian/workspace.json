@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L2/VLANs/Virtual LAN Overview.md",
+                "file": "L2/Spanning Tree Protocol/STP Overview.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L2/VLANs/Virtual LAN Overview.md",
+                "file": "L2/Spanning Tree Protocol/STP Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L2/VLANs/Virtual LAN Overview.md",
+                "file": "L2/Spanning Tree Protocol/STP Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L2/VLANs/Virtual LAN Overview.md"
+                "file": "L2/Spanning Tree Protocol/STP Overview.md"
               }
             }
           },
@@ -158,19 +158,19 @@
   },
   "active": "21ab9896ab1ecb0a",
   "lastOpenFiles": [
-    "L2/VLANs/VTP and DTP.md",
-    "L2/VLANs/Virtual LAN Overview.md",
+    "L2/Spanning Tree Protocol/STP Operation.md",
+    "L2/Spanning Tree Protocol/STP Overview.md",
+    "L2/Spanning Tree Protocol/PortFast and BPDU Guard.md",
     "L2/EtherChannel.md",
-    "L2/L2 Switching Overview.md",
     "L2/L2 Security Configuration.md",
+    "L2/L2 Switching Overview.md",
+    "L2/VLANs/Virtual LAN Overview.md",
+    "L2/VLANs/VTP and DTP.md",
     "L2/Spanning Tree Protocol",
     "L2/VLANs",
     "L3",
-    "L2/Spanning Tree Protocol/STP Overview.md",
-    "L2/Spanning Tree Protocol/PortFast and BPDU Guard.md",
     "L3/OSPF/OSPF Configuration.md",
     "L2/VLANs and Inter-VLAN Routing.md",
-    "L2/Spanning Tree Protocol/STP Operation.md",
     "L2/Layer 2 Switching Overview.md",
     "L3/OSPF/OSPF Overview.md",
     "il_fullxfull.3172886855_5smy.webp",
