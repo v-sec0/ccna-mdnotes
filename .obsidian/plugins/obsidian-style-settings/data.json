@@ -1,16 +1,24 @@
 {
   "ulu-theme-settings@@ulu-colorfo-headings": false,
   "ulu-theme-settings@@ulu-accent-title": true,
-  "ulu-theme-settings@@ulu-subtheme-selection": "ulu-origami",
+  "ulu-theme-settings@@ulu-subtheme-selection": "none",
   "ulu-theme-settings@@ulu-grad": false,
   "ulu-theme-settings@@ulu-bar": false,
   "ulu-theme-settings@@ulu-list-distinct": false,
   "ulu-theme-settings@@ulu-border": "ulu-noborder",
-  "ulu-theme-settings@@ulu-radius": "var(--radius-l)",
-  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-darker",
+  "ulu-theme-settings@@ulu-radius": "var(--radius-m)",
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-black",
   "Appearance-dark@@accent-color-override-dark": false,
   "Appearance-dark@@accent-dark": "#961616",
   "Appearance-dark@@background-underlying-select-dark": "background-underlying-primary-dark",
   "Appearance-dark@@mod-left-split-background-select-dark": "mod-left-split-background-primary-dark",
-  "Components@@tab-autohide": true
+  "Components@@tab-autohide": false,
+  "Components@@outline-enhanced": false,
+  "Appearance-dark@@card-layout-open-dark": true,
+  "ulu-theme-settings@@ulu-prop-card": true,
+  "ulu-theme-settings@@ulu-cards-border": true,
+  "ulu-theme-settings@@ulu-cards-shadow": false,
+  "ulu-theme-settings@@ulu-theme-dark": "ulu-con-d",
+  "ulu-theme-settings@@ulu-callouts": "ulu-nt-callouts",
+  "ulu-theme-settings@@ulu-codeblocks": "ulu-gummy-codeblock"
 }

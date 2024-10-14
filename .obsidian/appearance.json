@@ -2,8 +2,8 @@
   "interfaceFontFamily": "Bahnschrift",
   "textFontFamily": "Reddit Mono",
   "monospaceFontFamily": "Cascadia Mono",
-  "cssTheme": "Border",
-  "baseFontSize": 15,
+  "cssTheme": "Ultra Lobster",
+  "baseFontSize": 16,
   "baseFontSizeAction": true,
   "nativeMenus": true,
   "accentColor": "#3e50da"

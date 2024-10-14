@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "L2/VLANs/Virtual LAN Overview.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -156,7 +156,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1cf7682f830a7cba",
+  "active": "21ab9896ab1ecb0a",
   "lastOpenFiles": [
     "L2/L2 Security Configuration.md",
     "L2/EtherChannel.md",
