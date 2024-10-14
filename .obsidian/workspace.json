@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L2/STP Overview.md",
+                "file": "L2/Spanning Tree Protocol/STP Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "L2/VLANs/VTP and DTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L2/VLANs.md",
+                "file": "L2/VLANs/Virtual LAN Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "L2/VLANs/VTP and DTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "L2/VLANs/VTP and DTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "L2/VLANs/VTP and DTP.md"
               }
             }
           },
@@ -183,21 +183,24 @@
   },
   "active": "21ab9896ab1ecb0a",
   "lastOpenFiles": [
-    "L2/STP Overview.md",
-    "Untitled.md",
-    "L2/VLANs.md",
-    "L2/L2 Security Configuration.md",
-    "L2/PortFast and BPDU Guard.md",
+    "L2/VLANs/Virtual LAN Overview.md",
     "L2/L2 Switching Overview.md",
+    "L2/VLANs/VTP and DTP.md",
+    "L2/Spanning Tree Protocol",
+    "L2/VLANs",
+    "L3",
+    "L2/Spanning Tree Protocol/STP Overview.md",
+    "L2/L2 Security Configuration.md",
+    "L2/Spanning Tree Protocol/PortFast and BPDU Guard.md",
     "L2/EtherChannel.md",
-    "OSPF/OSPF Configuration.md",
+    "L3/OSPF/OSPF Configuration.md",
     "L2/VLANs and Inter-VLAN Routing.md",
-    "L2/STP Operation.md",
+    "L2/Spanning Tree Protocol/STP Operation.md",
     "L2/Layer 2 Switching Overview.md",
-    "OSPF/OSPF Overview.md",
+    "L3/OSPF/OSPF Overview.md",
     "il_fullxfull.3172886855_5smy.webp",
     "L2",
-    "OSPF",
+    "L3/OSPF",
     "Open Shortest Path First (OSPF).md",
     "Untitled.canvas"
   ]
