@@ -3,7 +3,11 @@
 **Dynamic Trunk Protocol (DTP)** allows two switches to auto-negotiate a trunk connection. 
 - The process is Cisco proprietary
 - It is highly recommended to use manual configuration.
-****
+**VLAN Trunking Protocol (VTP)** allows you to add, edit, or delete VLANs on switches configured as VTP servers and have other switches configured as VTP clients synchronize their VLAN database with them.
+- Still have to perform VLAN configuration on a port level.
+
+>[!warning]
+>VTP can delete VLANs if a switch is introduced with a higher VLAN database revision number
 
 ### Commands for DTP
 ---
