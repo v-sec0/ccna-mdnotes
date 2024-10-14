@@ -42,6 +42,8 @@ VLAN information on the frame is removed before being sent to an device on an ac
 
 Devices on an access port cannot communicate with devices outside of their VLAN unless the traffic is routed. 
 
+End hosts **are not** VLAN aware.
+
 
 ### Trunk Ports 
 ---
@@ -54,7 +56,7 @@ Trunk ports allow for VLAN traffic to span across multiple switches in the netwo
 >
 >This kept their communication separated and avoids any confusion.
 
-
+In some scenarios, such as virtualization, you may need to trunk VLANS down to the host. 
 ### 802.1q & ISL
 ---
 802.1q or dot1Q is a standard developed by the IEEE for frame tagging. 

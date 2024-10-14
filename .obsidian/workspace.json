@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L2/L2 Security Configuration.md",
+                "file": "L2/VLANs.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f51ac315f4b92699",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L2/L2 Security Configuration.md",
+                "file": "L2/VLANs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L2/L2 Security Configuration.md",
+                "file": "L2/VLANs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L2/L2 Security Configuration.md"
+                "file": "L2/VLANs.md"
               }
             }
           },
@@ -171,6 +172,7 @@
   },
   "active": "a8b165d4e437b04e",
   "lastOpenFiles": [
+    "L2/L2 Security Configuration.md",
     "L2/VLANs.md",
     "L2/PortFast and BPDU Guard.md",
     "L2/L2 Switching Overview.md",
@@ -180,7 +182,6 @@
     "L2/STP Overview.md",
     "L2/STP Operation.md",
     "L2/Layer 2 Switching Overview.md",
-    "L2/L2 Security Configuration.md",
     "OSPF/OSPF Overview.md",
     "il_fullxfull.3172886855_5smy.webp",
     "L2",
