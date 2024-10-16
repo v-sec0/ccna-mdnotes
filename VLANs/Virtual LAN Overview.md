@@ -95,5 +95,9 @@ In order for VLANs to communicate with each other 1 of 3 scenarios are needed:
 	2.  `encapsulation dot1Q <vlan>` needs to be set for all sub-interfaces.
 	3.  `ip routing` also needs to be enabled.
 3. A L3 Switch is configured with a **Switched Virtual Interface**
-	1. `vlan <vlan_id` is used to create the VLAN
-	2. `ip addr <ip> <mask>` is used to create IP information for that specific VLAN interface.
+	1. `int vlan <vlan-id>` creates an interface for the VLAN and allows the configuration of a SVI. You would then configure an IP address for the interface. 
+	2. `no switchport` is needed on any physical interface on the L3 Switch that you would like to add an IP address to. 
+		1. 1. Once done, you can use `ip address` to add an IP
+	3. At the global level, `ip routing` needs to be enabled for the switch to be able to route traffic. 
+	4. Additionally, a default route needs to be configured for the switch to forward traffic outside of the internetwork to the internet.
+		
