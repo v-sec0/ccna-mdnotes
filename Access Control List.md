@@ -25,6 +25,13 @@ Once the rule is made, it needs to be applied to an interface:
 ip access-group <access-list number> <out|in>
 ```
 
+
+For VTY lines, you can use the following command to only look for packets that are actively trying to connect via SSH.
+
+```
+access-class <access-list number> <in|out>
+```
+
 ### Extended ACL
 ---
 An extended ACL is able to use the source IP, destination IP, Network layer header, and Transport layer header as conditions for it's evaluation. 
