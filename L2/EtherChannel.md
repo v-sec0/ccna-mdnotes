@@ -7,4 +7,12 @@ Since modern networks take advantage of multiple redundant links between devices
 
 ### Commands
 ---
+>[!tip]
+>In order for the channel is become bundled some criteria must be met:
+>1. If link is going to be a trunk, make sure the native VLAN, Allowed VLANs, and the trunk mode are the same for not just the individual physical interfaces, but the logical one as well. Otherwise, some links may refuse to be bundled.
+
+1. `int port-channel <channel-id>` is used to create an interface for the port channel. From there, the interface can be configured as you would a physical interface
+2. `channel-group <channel-id> mode <auto/desirable (PAgP) | passive/active (LACP)>` is used on the physical interfaces to add them to the etherchannel. Depending on which negotiation protocol is being used, different settings are required for the mode.
+
+
 
