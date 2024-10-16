@@ -12,7 +12,14 @@ A standard ACL is limited to only evaluating the **source IP address** of a pack
 
 Since the standard ACL is limited to only evaluating the source IP address, it's advised to place these **as close to the destination as possible.** That way traffic that may originate from a variety of source addresses won't be denied. 
 
+##### Configuration
 For the configuration, standard access list use `1-99` and `1000-1999`.
+
+```
+access-list <1-99|1000-1999> <deny|allow> host <ip> <wildcard (optional>
+```
+
+
 
 ### Extended ACL
 ---
