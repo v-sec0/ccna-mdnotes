@@ -14,3 +14,9 @@
 1. `switchport mode dynamic auto` will form a trunk if the other switch port is set to **trunk** or **desirable.** (default on newer switches)
 2. `switchport mode dynamic desirable` will form a trunk if the other switch port is set to **trunk** or **auto.**
 3. `switchport nonnegotiate` will disable DTP.
+
+### Commands for VTP
+---
+1. `vtp mode <client|server|transparent>` will set the switch to either a client or a server
+2. `vtp version <1|2>` sets the VTP version
+3. `vtp domain <domain-name>` sets the VTP domain name.
