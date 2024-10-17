@@ -17,6 +17,6 @@
 
 ### Commands for VTP
 ---
-1. `vtp mode <client|server|transparent>` will set the switch to either a client or a server
+1. `vtp mode <client|server|transparent>` will set the switch to either a client, a server, or a pass-through.
 2. `vtp version <1|2>` sets the VTP version
 3. `vtp domain <domain-name>` sets the VTP domain name.

@@ -12,6 +12,9 @@ It works by two routers agreeing on a Virtual IP (VIP) and virtual MAC address i
 
 ### Configuration
 ---
+>[!warning]
+>There cannot be two instance 1's on the same interface. Either one has to have another instance number or has to be placed on another interface.
+
 The configuration process for HSRP is actually quite simple. 
 
 On the interface that is going to be used for HSRP, it must have it's own IP address for the physical interface in addition to the VIP. 
@@ -29,6 +32,13 @@ In some situations, HSRP can be used to load balance:
 1. The interface for both routers are configured with two instances that set each router as the active router for at least one instance. (Router A is active for instance 1, while Router B is active for instance 2).
 2. Two separate interfaces are used with each router is active for it's specific interface. (Router A is active for instance 1 on G0/1, while Router B is active for instance 1 on G0/2)
 
+HSRP also have a function called **pre-empt** that allows the original active router to regain it's active standing once it comes back online. However, this can be unstable if the router is continuously going up and down. 
+
+To enable this future:
+```
+standby 1 pre-empt
+```
+
 ### Election Process
 ---
 By default the router with the highest priority is assigned as the active router (default priority is 100). 
@@ -36,4 +46,7 @@ By default the router with the highest priority is assigned as the active router
 If there is a tie, the router with the highest IP address on that interface is chosen. 
 
 The default priority can be changed using:
-``
+```
+standby 1 priority <number>
+```
+
