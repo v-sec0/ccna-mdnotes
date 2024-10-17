@@ -16,7 +16,7 @@ Since the standard ACL is limited to only evaluating the source IP address, it's
 For the configuration, standard access list use `1-99` and `1000-1999`.
 
 ```
-access-list <1-99|1000-1999> <deny|permit> host <ip> <wildcard (optional)>
+access-list <1-99|1000-1999> <deny|permit> <source> <wildcard (optional)>
 ```
 
 Once the rule is made, it needs to be applied to an interface:
@@ -42,5 +42,5 @@ Since the extended ACL is able to evaluate so much, it's advised to place these 
 For the configuration, extended access list use `100-199` and `2000-2699`.
 
 ```
-access-list <100-199|2000-2699> 
+access-list <100-199|2000-2699> <deny|permit> <proto> <source> <dest> <service>
 ```

@@ -15,6 +15,8 @@ A DHCP server can either be a dedicated server or a process running on a pre-exi
 
 ### Commands
 ---
+==Cisco Configuration==
+ 
 To configure DHCP on a Cisco router, one must first start by defining which IPs will not participate in the DHCP pool process:
 
 ```
@@ -33,4 +35,12 @@ Once that's defined, you will enter DHCP configuration mode and be able to defin
 network <address> <subnet>
 default-router <address>
 dns-server <address>
+```
+
+==Passing traffic over router==
+
+In some situations, the DHCP server may be across a router, in that case the router must be configured to pass DHCP request traffic across the network to the server. 
+
+```
+ip 
 ```
