@@ -42,5 +42,22 @@ dns-server <address>
 In some situations, the DHCP server may be across a router, in that case the router must be configured to pass DHCP request traffic across the network to the server. 
 
 ```
-ip 
+int <interface-facing-endhost>
+ip helper-address <ip-of-server>
 ```
+
+This configuration must be done on the interface facing the end host that will be sending DHCP request. 
+
+==Router Receiving IP via DHCP==
+
+In some cases, the router may need to get an IP from the ISP. 
+
+On the interface facing the server provider, the following command should be ran to enable DHCP:
+
+```
+int <int-facing-isp>
+ip address dhcp
+no shut
+```
+
+`show dhcp lease` can be used to display DHCP information.
