@@ -39,8 +39,7 @@ A **blocking port** is a port that listens for BDPUs but won't forward frames.
 
 A **forwarding port** is a port that forwards frames; will be either the root port or designated port.
 
-An **alternative port** is a port that's on a switch that connect to a LAN segment with two or more switches where one of the other switches is assigned as a designated route and connects to the other.
-- A similar concept is a **blocking port** which is a backup for the alternative port.
+An **alternative port** is a backup port for a designated port.
 
 ##### Port States
 
