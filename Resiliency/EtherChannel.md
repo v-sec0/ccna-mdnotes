@@ -5,6 +5,19 @@ Since modern networks have multiple links between devices, it's smart to find wa
 **EtherChanneling** in the process of using multiple physical links and bundling them together into one logical link.
 - If three 1 Gbps links were connected they would result in one 3 Gbps logical link
 
+EtherChannel will load balance uplinks. 
+- Packets from the same f
+### Terminology
+---
+EtherChannel is also known as:
+1. Port Channel
+2. LAG Link Aggregation
+3. A link bundle
+
+NIC teaming is also know as:
+1. Bonding
+2. NIC Aggregation 
+
 ### Commands
 ---
 >[!tip]
@@ -17,4 +30,4 @@ Since modern networks have multiple links between devices, it's smart to find wa
 	2. **For LACP**, the interfaces connecting to each other must either be active/passive or both active. Otherwise the etherchannel will not come up.
 
 
-
+d
