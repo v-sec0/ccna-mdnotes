@@ -6,7 +6,7 @@ Since modern networks have multiple links between devices, it's smart to find wa
 - If three 1 Gbps links were connected they would result in one 3 Gbps logical link
 
 EtherChannel will load balance uplinks. 
-- Packets from the same f
+- Packets from the same flow always use the same interface (They are not round robin)
 ### Terminology
 ---
 EtherChannel is also known as:
