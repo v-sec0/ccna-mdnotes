@@ -7,16 +7,21 @@ Since modern networks have multiple links between devices, it's smart to find wa
 
 EtherChannel will load balance uplinks. 
 - Packets from the same flow always use the same interface (They are not round robin)
-### Terminology
+### Types of EtherChannel Protocols
 ---
-EtherChannel is also known as:
-1. Port Channel
-2. LAG Link Aggregation
-3. A link bundle
+There are two types of EtherChannel protocols:
+1. Link Aggregation Control Protocol (LACP)
+2. Port Aggregation Protocol (PAgP)
 
-NIC teaming is also know as:
-1. Bonding
-2. NIC Aggregation 
+ **LACP - Preferred**
+- Open standard
+- Switches on both sides negotiate the port channel creation and maintenance
+
+**PAgP**
+- Cisco proprietary
+- Switches on both sides negotiate the port channel creation and maintenance
+
+**Static Etherchannel** is a method of EtherChannel configuration that is done manually. No protocol automatically negotiates and all
 
 ### Commands
 ---
